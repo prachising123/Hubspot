@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.srchinp{
+    width: 135px;
+     height: 32px;
+     background: none;
+     border: none;
+     outline: none;
+     font-size: 17px;
+     position: relative;
+     float: right;
+}
+
+.navhead{
+    width: 100%;
+    height: 70px;
+    background-color: #11434c;
+    position: relative;
+    top: -16px;
+}
+
+.navhead p{
+    font-size: 18px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.618);
+    letter-spacing: 1px;
+    position: relative;
+    top: 25px;
+    left: -50px;
+    cursor: default;
+}
+
+.jointbn{
+    width: 230px;
+    height: 50px;
+    float: right;
+    position: relative;
+    left: -180px;
+    font-size: 18px;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    top: -10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.jointbn:hover{
+    background: #fff;
+    color: #000;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu ul li{
+    margin-right: 30px;
+    color: rgba(0, 0, 0, 0.69);
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.menu ul li:hover{
+    color: rgba(0, 0, 0, 0.467);
+    transition: 0.3s;
+}
+
+.btndemo{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #1da0de;
+    color: white;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    top: -13px;
+    cursor: pointer;
+}
+
+.btndemo:hover{
+    background-color: #1da1dea6;
+}
+
+.srch{
+    width: 170px;
+    height: 35px;
+    border: red 3px solid;
+    background: none;
+    float: right;
+    position: relative;
+    right: -850px;
+    top: 7px;
+}
+
+#iconsrch{
+    position: relative;
+    font-size: 20px;
+    top: 5px;
+    left: 4px;
+}
+
+.signuptxt{
+    position: relative;
+    font-size: 16px;
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+    float: right;
+    left: 575px;
+    top: 13px;
+    font-weight: 200;
+}
+
+.menu{
+    position: relative;
+    float: right;
+    left: -150px;
+    top: 50px;
+}
+
+.globe{
+    background: none;
+    border: none;
+}
+
+#globepng{
+    font-size: 20px;
+    float: right;
+    position: relative;
+    left: 1135px;
+    top: -25px;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.backjpg{
+    width: 100%;
+
+}
+
+.backgroundimg{
+    filter: blur(2px);
+}
+
+#logo{
+    width: 120px;
+    height: 60px;
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+.Istbox{
+    width: 470px;
+    height: 320px;
+    border: #fff 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 140px;
+    position: relative;
+    left: 130px;
+    top: 40px;
+    float: left;
+}
+
+.Istbox h1{
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.436);
+}
+
+.Istbox p{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.Istbox button{
+    width: 150px;
+    height: 40px;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Istbox button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.IIndbox{
+    width: 470px;
+    height: 220px;
+    border: #fff 1px solid;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top:40px;
+    left: -200px;
+    float: right;
+
+}
+
+
+.IIndbox h1{
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.436);
+}
+
+.IIndbox p{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.IIndbox button{
+    width: 150px;
+    height: 40px;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.IIndbox button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.IIIrdbox{
+    width: 470px;
+    height: 220px;
+    border: #fff 1px solid;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 60px;
+    left: -430px;
+    float: right;
+
+}
+
+.IIIrdbox h1{
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.436);
+}
+
+.IIIrdbox p{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.IIIrdbox button{
+    width: 150px;
+    height: 40px;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.IIIrdbox button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.headerpage{
+    position: relative;
+    left: 150px;
+}
